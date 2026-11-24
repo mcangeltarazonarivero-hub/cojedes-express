@@ -1,0 +1,42 @@
+﻿{
+  "platform": "Cojedes Express",
+  "launch_city": "Tinaco, Cojedes",
+  "currency": "USD",
+  "bcv_rate_required": true,
+  "delivery_fee": {
+    "total_usd": 1.20,
+    "driver_usd": 1.00,
+    "platform_usd": 0.20
+  },
+  "roles": [
+    "cliente",
+    "comercio",
+    "repartidor",
+    "ceo"
+  ],
+  "businesses": [
+    {
+      "id": "hamburguesas-gourmet",
+      "name": "¡Hamburguesas! Gourmet",
+      "category": "Comida",
+      "city": "Tinaco",
+      "status": "active",
+      "products": [
+        {
+          "id": "hg-01",
+          "name": "Hamburguesa Clásica Gourmet",
+          "price_usd": 5.00,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "productos-limpieza-el-brillo",
+      "name": "Productos de Limpieza El Brillo",
+      "category": "Limpieza",
+      "city": "Tinaco",
+      "status": "paused",
+      "products": []
+    }
+  ]
+}
